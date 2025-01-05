@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import React from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -8,10 +9,9 @@ export const metadata: Metadata = {
   title: 'KronSound',
   description: 'KronSound is revolutionizing the world of sound. Experience the future of music creation.',
   keywords: ['AI', 'music', 'artificial intelligence', 'sound generation', 'audio production', 'song'],
-  icons: [
-    { rel: 'icon', url: '/icon.png' },
-    { rel: 'apple-touch-icon', url: '/icon.png' },
-  ],
+  icons: {
+    icon: '/icon.png',
+  },
   openGraph: {
     title: 'KronSound - Revolutionizing the world of sound',
     description: 'Experience the future of music creation with KronSound.',
@@ -41,10 +41,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/icon.png" sizes="any" />
-      </head>
-      <body className={inter.className}>{children}</body>
+      <head />
+      <body>{children}</body>
     </html>
   )
 }

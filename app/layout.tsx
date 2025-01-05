@@ -10,7 +10,19 @@ export const metadata: Metadata = {
   description: 'KronSound is revolutionizing the world of sound. Experience the future of music creation.',
   keywords: ['AI', 'music', 'artificial intelligence', 'sound generation', 'audio production', 'song'],
   icons: {
-    icon: '/icon.png',
+    icon: [
+      {
+        url: '/icon.png',
+        sizes: '192x192',
+        type: 'image/png',
+      },
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
+      }
+    ],
+    shortcut: '/icon.png',
+    apple: '/icon.png',
   },
   openGraph: {
     title: 'KronSound - Revolutionizing the world of sound',

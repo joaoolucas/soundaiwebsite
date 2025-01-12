@@ -6,8 +6,8 @@ import React from 'react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'KronSound',
-  description: 'KronSound is revolutionizing the world of sound. Experience the future of music creation.',
+  title: 'EchoForge',
+  description: 'EchoForge is revolutionizing the world of sound. Experience the future of music creation.',
   keywords: ['AI', 'music', 'artificial intelligence', 'sound generation', 'audio production', 'song'],
   icons: {
     icon: [
@@ -25,23 +25,23 @@ export const metadata: Metadata = {
     apple: '/icon.png',
   },
   openGraph: {
-    title: 'KronSound - Revolutionizing the world of sound',
-    description: 'Experience the future of music creation with KronSound.',
+    title: 'EchoForge - Revolutionizing the world of sound',
+    description: 'Experience the future of music creation with EchoForge.',
     type: 'website',
-    url: 'https://kronsound.com',
+    url: 'https://echoforge.com',
     images: [
       {
         url: '/icon.png',
         width: 192,
         height: 192,
-        alt: 'KronSound - Revolutionizing the world of sound',
+        alt: 'EchoForge - Revolutionizing the world of sound',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'KronSound - Revolutionizing the world of sound',
-    description: 'Experience the future of music creation with KronSound.',
+    title: 'EchoForge - Revolutionizing the world of sound',
+    description: 'Experience the future of music creation with EchoForge.',
     images: ['/icon.png'],
   },
 }

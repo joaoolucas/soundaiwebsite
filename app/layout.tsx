@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'EchoForge',
-  description: 'EchoForge is elevating the art of audio. Experience the future of music creation.',
+  description: 'EchoForge is empowering the future of audio technology. Experience the future of music creation.',
   keywords: ['AI', 'music', 'artificial intelligence', 'sound generation', 'audio production', 'song'],
   icons: {
     icon: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     apple: '/icon.png',
   },
   openGraph: {
-    title: 'EchoForge - Elevating the art of audio',
+    title: 'EchoForge - Empowering the future of audio technology',
     description: 'Experience the future of music creation with EchoForge.',
     type: 'website',
     url: 'https://echoforge.com',
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
         url: '/icon.png',
         width: 192,
         height: 192,
-        alt: 'EchoForge - Elevating the art of audio',
+        alt: 'EchoForge - Empowering the future of audio technology',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'EchoForge - Elevating the art of audio',
+    title: 'EchoForge - Empowering the future of audio technology',
     description: 'Experience the future of music creation with EchoForge.',
     images: ['/icon.png'],
     creator: '@EchoForgee',

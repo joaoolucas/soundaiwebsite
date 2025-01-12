@@ -19,7 +19,7 @@ export default function Home() {
             <span className="text-green-500">Forge</span>
           </h2>
           <h3 className="text-lg md:text-xl lg:text-2xl text-white text-center mt-2 mb-4 whitespace-nowrap overflow-hidden text-ellipsis">
-            Elevating the art of audio
+            Empowering the future of audio technology
           </h3>
           <SocialLinks />
         </div>

@@ -43,6 +43,8 @@ export const metadata: Metadata = {
     title: 'EchoForge - Elevating the art of audio',
     description: 'Experience the future of music creation with EchoForge.',
     images: ['/icon.png'],
+    creator: '@EchoForgee',
+    site: '@EchoForgee',
   },
 }
 
@@ -53,11 +55,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <head>
-        <title>EchoForge</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
-      <body className="bg-black">{children}</body>
+      <body className="bg-background text-foreground">{children}</body>
     </html>
   )
 }

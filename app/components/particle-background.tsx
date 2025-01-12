@@ -19,7 +19,7 @@ export default function ParticleBackground() {
     fpsLimit: 120,
     particles: {
       color: {
-        value: '#EF4444', // Changed to red
+        value: '#22C55E', // Changed from red to green
       },
       move: {
         enable: true,

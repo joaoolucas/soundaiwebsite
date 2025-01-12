@@ -19,7 +19,7 @@ export default function SocialLinks() {
       <div className="flex items-center justify-center mb-2 w-full">
         <span className="text-white text-lg mr-2">CA :</span>
         <motion.div
-          className="text-red-500 cursor-pointer select-all text-lg font-semibold flex items-center"
+          className="text-green-500 cursor-pointer select-all text-lg font-semibold flex items-center"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={handleCopy}
@@ -33,18 +33,18 @@ export default function SocialLinks() {
             transition={{ duration: 0.2 }}
           >
             {isCopied ? (
-              <Check className="text-red-500 w-3.5 h-3.5" />
+              <Check className="text-green-500 w-3.5 h-3.5" />
             ) : (
-              <Clipboard className="text-red-500 w-3.5 h-3.5" />
+              <Clipboard className="text-green-500 w-3.5 h-3.5" />
             )}
           </motion.div>
         </motion.div>
       </div>
       <motion.a
-        href="https://x.com/KronSound"
+        href="https://x.com/EchoForgee"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-red-500 transition-colors flex items-center gap-1 mt-2"
+        className="text-white hover:text-green-500 transition-colors flex items-center gap-1 mt-2"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >

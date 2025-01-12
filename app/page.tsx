@@ -15,11 +15,11 @@ export default function Home() {
         <div className="w-full max-w-4xl flex flex-col items-center justify-center pointer-events-auto px-4">
           <Logo />
           <h2 className="text-4xl md:text-5xl font-bold mt-6 mb-2 text-center">
-            <span className="text-white">Kron</span>
-            <span className="text-red-500">Sound</span>
+            <span className="text-white">Echo</span>
+            <span className="text-green-500">Forge</span>
           </h2>
           <h3 className="text-lg md:text-xl lg:text-2xl text-white text-center mt-2 mb-4 whitespace-nowrap overflow-hidden text-ellipsis">
-            Revolutionizing the world of sound
+            Elevating the art of audio
           </h3>
           <SocialLinks />
         </div>

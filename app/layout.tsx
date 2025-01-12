@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'EchoForge',
-  description: 'EchoForge is revolutionizing the world of sound. Experience the future of music creation.',
+  description: 'EchoForge is elevating the art of audio. Experience the future of music creation.',
   keywords: ['AI', 'music', 'artificial intelligence', 'sound generation', 'audio production', 'song'],
   icons: {
     icon: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     apple: '/icon.png',
   },
   openGraph: {
-    title: 'EchoForge - Revolutionizing the world of sound',
+    title: 'EchoForge - Elevating the art of audio',
     description: 'Experience the future of music creation with EchoForge.',
     type: 'website',
     url: 'https://echoforge.com',
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
         url: '/icon.png',
         width: 192,
         height: 192,
-        alt: 'EchoForge - Revolutionizing the world of sound',
+        alt: 'EchoForge - Elevating the art of audio',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'EchoForge - Revolutionizing the world of sound',
+    title: 'EchoForge - Elevating the art of audio',
     description: 'Experience the future of music creation with EchoForge.',
     images: ['/icon.png'],
   },
@@ -52,9 +52,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <head />
-      <body>{children}</body>
+    <html lang="en" className={inter.className}>
+      <head>
+        <title>EchoForge</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
+      <body className="bg-black">{children}</body>
     </html>
   )
 }

@@ -44,7 +44,7 @@ export default function ClickEffect() {
                 width: 50,
                 height: 50,
                 borderRadius: '50%',
-                backgroundColor: 'rgba(34, 197, 94, 0.3)',
+                backgroundColor: 'rgba(249, 115, 22, 0.3)',
                 transform: 'translate(-50%, -50%)',
               }}
             />

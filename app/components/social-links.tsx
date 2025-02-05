@@ -41,7 +41,7 @@ export default function SocialLinks() {
         </motion.div>
       </div>
       <motion.a
-        href="https://x.com/EchoForgee"
+        href="https://x.com/SoundNyx"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-orange-500 transition-colors flex items-center gap-1 mt-2"

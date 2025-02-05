@@ -43,8 +43,8 @@ export const metadata: Metadata = {
     title: 'Nyx Sound - Empowering the future of audio technology',
     description: 'Experience the future of music creation with Nyx Sound.',
     images: ['/icon.png'],
-    creator: '@EchoForgee',
-    site: '@EchoForgee',
+    creator: '@SoundNyx',
+    site: '@SoundNyx',
   },
 }
 
